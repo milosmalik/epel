@@ -22,9 +22,9 @@
 #
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #   library-prefix = epel
-#   library-version = 30
+#   library-version = 31
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-__INTERNAL_epel_LIB_VERSION=30
+__INTERNAL_epel_LIB_VERSION=31
 __INTERNAL_epel_LIB_NAME='distribution/epel'
 : <<'=cut'
 =pod
@@ -305,7 +305,7 @@ epelLibraryLoaded() {
     # older RHELs cannot use NSS to connect to it over HTTPS anymore.
     PROTO='http'
   fi
-  for j in 1 2; do
+  for j in 1 2 3; do
     case $j in
     1)
       rlIsRHEL 5 && continue
