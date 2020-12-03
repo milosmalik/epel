@@ -22,9 +22,9 @@
 #
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #   library-prefix = epel
-#   library-version = 31
+#   library-version = 32
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-__INTERNAL_epel_LIB_VERSION=31
+__INTERNAL_epel_LIB_VERSION=32
 __INTERNAL_epel_LIB_NAME='distribution/epel'
 : <<'=cut'
 =pod
@@ -360,7 +360,7 @@ $epel
       res=1
       continue
     }
-    rlLog "found '$epel', using url ${epel_url}/${epel}"
+    rlLog "found candidate source of '$epel', using url ${epel_url}/${epel}"
     rlLog "install epel repo"
     local epel_rpm
     if rlIsRHEL 5; then
