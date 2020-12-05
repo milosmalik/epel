@@ -1,6 +1,6 @@
 #!/bin/bash
-# Authors: 	Dalibor Pospíšil	<dapospis@redhat.com>
-#   Author: Dalibor Pospisil <dapospis@redhat.com>
+# Authors: Dalibor Pospíšil <dapospis@redhat.com>
+# Author: Dalibor Pospisil <dapospis@redhat.com>
 #
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #

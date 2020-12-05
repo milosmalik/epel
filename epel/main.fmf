@@ -1,6 +1,6 @@
 summary: EPEL handling
 description: |
-    A beakerlib library for handling epel repo files and yum / dnf parameters.
+    A beakerlib library for handling EPEL repo files and yum / dnf parameters.
     
     A setup test which install epel-release package and set the repo disabled.
     
